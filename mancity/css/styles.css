@@ -1,8 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 
-.banner {
+    /* Uni-Border Tool */
+    /* border: 1px red solid; */
+}
+
+/* .banner {
     height: 100%;
     width: 100vh;
-    background-image:  url(/images/gettyimages-520685280-612x612.jpg);
+    background-position: center;
+    background-size: cover;
+} */
+
+body {
+    height: 100dvh;
+    background-image:  url(../images/gettyimages-520685280-612x612.jpg);
+    background-color: orangered;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
